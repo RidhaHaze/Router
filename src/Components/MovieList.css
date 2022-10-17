@@ -1,0 +1,11 @@
+.movie-items{
+    background: #ffffff;
+ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.movie-app >.row {
+     overflow-y: auto;
+  flex-wrap: nowrap;   
+}
